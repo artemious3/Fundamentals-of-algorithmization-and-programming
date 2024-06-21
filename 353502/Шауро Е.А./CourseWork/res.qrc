@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/watermelon.png</file>
+        <file>Images/topPillar.png</file>
+        <file>Images/strawberry.png</file>
+        <file>Images/standart_cat.png</file>
+        <file>Images/skin.png</file>
+        <file>Images/raspberry.png</file>
+        <file>Images/—Pngtree—orange pixel wind gameover broken_5525880.png</file>
+        <file>Images/pineapple.png</file>
+        <file>Images/pear.png</file>
+        <file>Images/peach.png</file>
+        <file>Images/orange.png</file>
+        <file>Images/mango.png</file>
+        <file>Images/mainBack.jpg</file>
+        <file>Images/head.png</file>
+        <file>Images/grape.png</file>
+        <file>Images/gems.png</file>
+        <file>Images/gameover.png</file>
+        <file>Images/cool_cat.png</file>
+        <file>Images/coconut.png</file>
+        <file>Images/cat sitting.png</file>
+        <file>Images/cat right.png</file>
+        <file>Images/cat left.png</file>
+        <file>Images/bottomPillar.png</file>
+        <file>Images/bird2.png</file>
+        <file>Images/bird1.png</file>
+        <file>Images/bird0.png</file>
+        <file>Images/banana.png</file>
+        <file>Images/backgroundSnake.jpeg</file>
+        <file>Images/backgroundMatch3.png</file>
+        <file>Images/backgroundForCatch.png</file>
+        <file>Images/backgroundBird.png</file>
+        <file>Images/appleForSnake.png</file>
+        <file>Images/apple.png</file>
+        <file>Images/angry_cat.png</file>
+        <file>Images/cat_go_away.png</file>
+        <file>Images/mainGO.png</file>
+        <file>Images/infoBack.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,14 @@
+#ifndef NUMBER_H
+#define NUMBER_H
+
+class Number {
+private:
+    double num;
+ public:
+    explicit Number(double value){
+        num = value;
+    };
+    
+};
+
+#endif  // NUMBER_H
