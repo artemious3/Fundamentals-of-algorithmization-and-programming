@@ -1,0 +1,4 @@
+#ifndef VECTORITERATOR_H
+#define VECTORITERATOR_H
+
+#endif // VECTORITERATOR_H
