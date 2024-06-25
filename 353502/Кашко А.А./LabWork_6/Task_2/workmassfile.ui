@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WorkMassFile</class>
+ <widget class="QDialog" name="WorkMassFile">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>584</width>
+    <height>498</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>531</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="sizeMassLabel">
+      <property name="text">
+       <string>Введите размер числового массива:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="sizeMassTextEdit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="sizeMassButton">
+      <property name="text">
+       <string>ВВЕСТИ</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="sizeInputLabel">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="massLabel">
+      <property name="text">
+       <string>Введите элементы числового массива через пробел:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTextEdit" name="massTextEdit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="massButton">
+      <property name="text">
+       <string>ВВЕСТИ, ЗАПИСАТЬ В ФАЙЛ</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="massInputLabel">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="showButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>531</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Просмотреть содержимое файла</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="showTextBrowser">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>310</y>
+     <width>531</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>440</y>
+     <width>531</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>  ЗАКРЫТЬ</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

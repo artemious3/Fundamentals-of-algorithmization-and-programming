@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VectorFunctionInformation</class>
+ <widget class="QDialog" name="VectorFunctionInformation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>921</width>
+    <height>732</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>911</width>
+     <height>721</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;1) ASSIGN - удаляет вектор и копирует указанные элементы в пустой вектор. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;2) AT - возвращает ссылку на элемент в заданном положении в векторе. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;3) BACK - возвращает ссылку на последний элемент вектора. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;4) BEGIN - возвращает итератор произвольного доступа, указывающий на первый элемент в векторе. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;5) CAPACITY - возвращает число элементов, которое вектор может содержать без выделения дополнительного пространства. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;6) CBEGIN - возвращает константный итератор произвольного доступа, указывающий на первый элемент в векторе. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;7) CLEAR - очищает элементы вектора. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;8) DATA - возвращает указатель на первый элемент в векторе. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;9) EMPLACE - вставляет элемент, созданный на месте, в указанное положение в векторе. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;10) EMPLACE_BACK - добавляет элемент, созданный на месте, в конец вектора. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;11) EMPTY - проверяет, пуст ли контейнер вектора. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;12) END - возвращает итератор произвольного доступа, который указывает на конец вектора. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;13) ERASE - удаляет элемент или диапазон элементов в векторе из заданных позиций. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;14) FRONT - возвращает ссылку на первый элемент в векторе. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;15) INSERT - вставляет элемент или множество элементов в заданную позиции в вектор. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;16) MAX_SIZE - возвращает максимальную длину вектора. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;17) POP_BACK - удаляет элемент в конце вектора. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;18) PUSH_BACK - добавляет элемент в конец вектора.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;19) RBEGIN - возвращает итератор, указывающий на первый элемент в обратном векторе. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;20) REND - возвращает итератор, который указывает на последний элемент в обратном векторе. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;21) RESERVE - резервирует минимальную длину хранилища для объекта вектора. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;22) RESIZE - определяет новый размер вектора. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;23) SIZE - возвращает количество элементов в векторе.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700; color:#613583;&quot;&gt;24) SWAP - меняет местами элементы двух векторов.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>680</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ЗАКРЫТЬ</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
