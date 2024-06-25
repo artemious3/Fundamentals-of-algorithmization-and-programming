@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     layout = new QVBoxLayout();
 
-    QPixmap pixmap("/home/ilyamzy/proj/courseWork/Pictures/Belarus.png");
+    QPixmap pixmap("/home/ilyamzy/proj/courseWork/Resources/Belarus.png");
     pictureLabel->setPixmap(pixmap);
     pictureLabel->setScaledContents(true);
     pictureLabel->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
